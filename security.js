@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
 const Blynk = require('/usr/lib/node_modules/blynk-library');
-//const b = require('bonescript');
 var AUTH = '';
 var blynk = new Blynk.Blynk(AUTH);
 var v0 = new blynk.VirtualPin(0);
