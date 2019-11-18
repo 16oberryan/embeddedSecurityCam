@@ -18,7 +18,7 @@ const chokidar = require('/usr/lib/node_modules/chokidar');
 var request = require('request');
 var qs = require('querystring');
 var iftttEvent = 'email';
-var key = 'geMCiUlt1QF9RzPUEIUSg';
+var key = '';
 var string = {value1: 'My', value2: 'Test', value3: 'Program'};
 var url = 'https://maker.ifttt.com/trigger/' + iftttEvent + '/with/key/' + key + '?' + qs.stringify(string);
 
