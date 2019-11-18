@@ -1,8 +1,7 @@
 #!/usr/bin/env node
 
 const Blynk = require('/usr/lib/node_modules/blynk-library');
-//const b = require('bonescript');
-var AUTH = '804KNyC2n6n5D90Dl8C2kQ-DyD8GoDVE';
+var AUTH = '';
 var blynk = new Blynk.Blynk(AUTH);
 var v0 = new blynk.VirtualPin(0);
 var v1 = new blynk.VirtualPin(1);
@@ -18,7 +17,7 @@ const chokidar = require('/usr/lib/node_modules/chokidar');
 var request = require('request');
 var qs = require('querystring');
 var iftttEvent = 'email';
-var key = 'geMCiUlt1QF9RzPUEIUSg';
+var key = '';
 var string = {value1: 'My', value2: 'Test', value3: 'Program'};
 var url = 'https://maker.ifttt.com/trigger/' + iftttEvent + '/with/key/' + key + '?' + qs.stringify(string);
 
