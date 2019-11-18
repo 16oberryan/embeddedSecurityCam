@@ -2,7 +2,7 @@
 
 const Blynk = require('/usr/lib/node_modules/blynk-library');
 //const b = require('bonescript');
-var AUTH = '804KNyC2n6n5D90Dl8C2kQ-DyD8GoDVE';
+var AUTH = '';
 var blynk = new Blynk.Blynk(AUTH);
 var v0 = new blynk.VirtualPin(0);
 var v1 = new blynk.VirtualPin(1);
